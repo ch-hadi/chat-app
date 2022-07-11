@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
      <Routes>
+       {/* <Route path='/login' element={<Login/>} /> */}
        <Route path='/' element={<Home/>} />
        <Route path='/chats' element={<ChatPage/>} />
        <Route path = '*' element={<NotFound/>}/>
